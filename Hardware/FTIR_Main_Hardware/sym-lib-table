@@ -1,4 +1,0 @@
-(sym_lib_table
-  (version 7)
-  (lib (name "Stepper_Driver_Header")(type "KiCad")(uri "C:/GitHub/IRSpectrometer_Hardware/Hardware/Local_Libraries/Symbols/Stepper_Driver_Header.kicad_sym")(options "")(descr ""))
-)
