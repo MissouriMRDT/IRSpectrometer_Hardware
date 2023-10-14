@@ -3995,11 +3995,11 @@
     (property "Datasheet" "https://www.pololu.com/product/3784" (at 40.64 75.565 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid f6f54db6-0c02-43d2-9d96-089ab800b14f))
-    (pin "" (uuid f6f54db6-0c02-43d2-9d96-089ab800b14f))
-    (pin "" (uuid f6f54db6-0c02-43d2-9d96-089ab800b14f))
-    (pin "" (uuid f6f54db6-0c02-43d2-9d96-089ab800b14f))
-    (pin "" (uuid f6f54db6-0c02-43d2-9d96-089ab800b14f))
+    (pin "" (uuid f6f54db6-0c02-43d2-9d96-089ab800b153))
+    (pin "" (uuid f6f54db6-0c02-43d2-9d96-089ab800b153))
+    (pin "" (uuid f6f54db6-0c02-43d2-9d96-089ab800b153))
+    (pin "" (uuid f6f54db6-0c02-43d2-9d96-089ab800b153))
+    (pin "" (uuid f6f54db6-0c02-43d2-9d96-089ab800b153))
     (instances
       (project "FTIR_Main_Hardware"
         (path "/049c3f09-c046-40c3-9872-e62b40667976"
@@ -4143,22 +4143,22 @@
     (property "Datasheet" "EVAL BOARD, STEPPER MOTOR DRIVER BOARD ROHS COMPLIANT: YES" (at 87.63 115.57 0)
       (effects (font (size 1.27 1.27)) hide)
     )
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
-    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8babf))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
+    (pin "" (uuid 657c2816-6656-43c3-8434-9ce459c8bace))
     (instances
       (project "FTIR_Main_Hardware"
         (path "/049c3f09-c046-40c3-9872-e62b40667976"
@@ -6155,11 +6155,11 @@
     (property "Datasheet" "" (at 27.94 55.245 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 7184e404-c4e1-43f3-96fe-42b1052b63ef))
+    (pin "1" (uuid 7184e404-c4e1-43f3-96fe-42b1052b63f0))
     (pin "2" (uuid 832ebfab-b3a0-4e31-9964-9c1b68eaad68))
     (pin "3" (uuid ad4898d6-e084-480b-a61e-6a4623f9ba68))
     (pin "4" (uuid aca8a6c2-4dc3-4d3f-85ee-9daf1f724fc6))
-    (pin "1" (uuid 7184e404-c4e1-43f3-96fe-42b1052b63ef))
+    (pin "1" (uuid 7184e404-c4e1-43f3-96fe-42b1052b63f0))
     (instances
       (project "FTIR_Main_Hardware"
         (path "/049c3f09-c046-40c3-9872-e62b40667976"
@@ -6758,11 +6758,11 @@
     (property "Datasheet" "" (at 27.94 45.085 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 4d5055a9-a129-47dc-bc7b-9730e0a56b60))
+    (pin "1" (uuid 4d5055a9-a129-47dc-bc7b-9730e0a56b61))
     (pin "2" (uuid 46d9d57d-1f76-48e3-a41e-242aefb5450d))
     (pin "3" (uuid d0ec281e-b407-47fc-9e23-0efcec5ac75f))
     (pin "4" (uuid e5e6a7fb-921b-463e-9019-c918f1c11a82))
-    (pin "1" (uuid 4d5055a9-a129-47dc-bc7b-9730e0a56b60))
+    (pin "1" (uuid 4d5055a9-a129-47dc-bc7b-9730e0a56b61))
     (instances
       (project "FTIR_Main_Hardware"
         (path "/049c3f09-c046-40c3-9872-e62b40667976"
