@@ -1,4 +1,4 @@
 (fp_lib_table
   (version 7)
-  (lib (name "Pakcage")(type "KiCad")(uri "C:/GitHub/FT_IR_Spectrometer_Hardware/Hardware/Local_Libraries/Pakcage")(options "")(descr ""))
+  (lib (name "Pakcage")(type "KiCad")(uri "C:/GitHub/IRSpectrometer_Hardware/Hardware/Local_Libraries/FT_IRPackages")(options "")(descr ""))
 )
