@@ -1,4 +1,4 @@
-22595935156350708
+22603472718184605
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62677,6 +62677,13 @@ BUZZER_SMI_1324_TW_5V_2_R
 0
 2
 2
+MRDT_Devices
+D36V28F7_Buck
+
+
+0
+0
+0
 MRDT_Devices
 HX1198FNL
 
