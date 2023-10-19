@@ -4313,8 +4313,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "EN" (uuid d80146e9-2f9c-40a3-accd-5fcd6429ebba))
-    (pin "GND" (uuid 16740dd0-0dd0-4504-aa33-e84a084c4c5d))
-    (pin "GND" (uuid 16740dd0-0dd0-4504-aa33-e84a084c4c5d))
+    (pin "GND" (uuid 16740dd0-0dd0-4504-aa33-e84a084c4c5e))
+    (pin "GND" (uuid 16740dd0-0dd0-4504-aa33-e84a084c4c5e))
     (pin "VIN" (uuid 8a8bcd15-bcb1-4c6f-866f-727a2f16b2c3))
     (pin "VOUT" (uuid 0cc794a1-729d-47c7-9dce-6a083647400a))
     (instances
@@ -4492,8 +4492,8 @@
     (pin "CLK" (uuid 9c74debe-37a8-48b3-aa28-9a45378e8a22))
     (pin "DIR" (uuid 28b3da4a-9c2e-49d2-9307-595731f095cb))
     (pin "EN" (uuid 0c8e3493-b902-4a23-9167-debf138d542d))
-    (pin "GND" (uuid bef879b0-1a0f-452c-a648-168ae46060ba))
-    (pin "GND" (uuid bef879b0-1a0f-452c-a648-168ae46060ba))
+    (pin "GND" (uuid bef879b0-1a0f-452c-a648-168ae46060bb))
+    (pin "GND" (uuid bef879b0-1a0f-452c-a648-168ae46060bb))
     (pin "M1A" (uuid 63253d79-78b3-49f2-8d5f-bd957cd64f2e))
     (pin "M1B" (uuid 1156c412-7818-43fb-90b5-90a0f91a4805))
     (pin "M2A" (uuid 9b0cbdcf-a897-4af2-820e-396f502541e5))
@@ -6710,11 +6710,11 @@
     (property "Datasheet" "" (at 27.94 55.245 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 7184e404-c4e1-43f3-96fe-42b1052b63ff))
+    (pin "1" (uuid 7184e404-c4e1-43f3-96fe-42b1052b6400))
     (pin "2" (uuid 832ebfab-b3a0-4e31-9964-9c1b68eaad68))
     (pin "3" (uuid ad4898d6-e084-480b-a61e-6a4623f9ba68))
     (pin "4" (uuid aca8a6c2-4dc3-4d3f-85ee-9daf1f724fc6))
-    (pin "1" (uuid 7184e404-c4e1-43f3-96fe-42b1052b63ff))
+    (pin "1" (uuid 7184e404-c4e1-43f3-96fe-42b1052b6400))
     (instances
       (project "FTIR_Main_Hardware"
         (path "/049c3f09-c046-40c3-9872-e62b40667976"
@@ -7422,11 +7422,11 @@
     (property "Datasheet" "" (at 22.225 44.45 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 4d5055a9-a129-47dc-bc7b-9730e0a56b70))
+    (pin "1" (uuid 4d5055a9-a129-47dc-bc7b-9730e0a56b71))
     (pin "2" (uuid 46d9d57d-1f76-48e3-a41e-242aefb5450d))
     (pin "3" (uuid d0ec281e-b407-47fc-9e23-0efcec5ac75f))
     (pin "4" (uuid e5e6a7fb-921b-463e-9019-c918f1c11a82))
-    (pin "1" (uuid 4d5055a9-a129-47dc-bc7b-9730e0a56b70))
+    (pin "1" (uuid 4d5055a9-a129-47dc-bc7b-9730e0a56b71))
     (instances
       (project "FTIR_Main_Hardware"
         (path "/049c3f09-c046-40c3-9872-e62b40667976"
