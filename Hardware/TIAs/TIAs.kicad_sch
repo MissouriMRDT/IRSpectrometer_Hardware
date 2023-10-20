@@ -364,6 +364,35 @@
         )
       )
     )
+    (symbol "Mechanical:MountingHole" (pin_names (offset 1.016)) (in_bom yes) (on_board yes)
+      (property "Reference" "H" (at 0 5.08 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Value" "MountingHole" (at 0 3.175 0)
+        (effects (font (size 1.27 1.27)))
+      )
+      (property "Footprint" "" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "Datasheet" "~" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_keywords" "mounting hole" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_description" "Mounting Hole without connection" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (property "ki_fp_filters" "MountingHole*" (at 0 0 0)
+        (effects (font (size 1.27 1.27)) hide)
+      )
+      (symbol "MountingHole_0_1"
+        (circle (center 0 0) (radius 1.27)
+          (stroke (width 1.27) (type default))
+          (fill (type none))
+        )
+      )
+    )
     (symbol "Sensor_Optical:S5971" (pin_names (offset 0.254) hide) (in_bom yes) (on_board yes)
       (property "Reference" "D" (at 2.54 -5.08 0)
         (effects (font (size 1.27 1.27)) (justify left))
@@ -828,6 +857,40 @@
     )
   )
 
+  (symbol (lib_id "Mechanical:MountingHole") (at 160.02 39.37 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 235fa117-1adb-4f25-8789-a6f19d320a03)
+    (property "Reference" "H2" (at 163.195 38.0999 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 163.195 40.6399 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner" (at 160.02 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 160.02 39.37 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "FTIR_Main_Hardware"
+        (path "/049c3f09-c046-40c3-9872-e62b40667976"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "Flouro_Breakout"
+        (path "/7d297d96-3ae7-4136-8d04-aa7759bb4b4b"
+          (reference "H2") (unit 1)
+        )
+      )
+      (project "TIAs"
+        (path "/9eea0108-5a69-4a2a-bd01-cc036800501a"
+          (reference "H2") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:+3V3") (at 118.11 39.37 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid 23842d91-356b-4405-993f-f0a2aab5dac0)
@@ -914,6 +977,40 @@
       (project "TIAs"
         (path "/9eea0108-5a69-4a2a-bd01-cc036800501a"
           (reference "#PWR05") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 160.02 33.02 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 48cee6f7-f74d-4198-a0ab-455c1f25a1ea)
+    (property "Reference" "H1" (at 163.195 31.7499 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 163.195 34.2899 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner" (at 160.02 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 160.02 33.02 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "FTIR_Main_Hardware"
+        (path "/049c3f09-c046-40c3-9872-e62b40667976"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "Flouro_Breakout"
+        (path "/7d297d96-3ae7-4136-8d04-aa7759bb4b4b"
+          (reference "H1") (unit 1)
+        )
+      )
+      (project "TIAs"
+        (path "/9eea0108-5a69-4a2a-bd01-cc036800501a"
+          (reference "H1") (unit 1)
         )
       )
     )
@@ -1012,6 +1109,40 @@
       (project "TIAs"
         (path "/9eea0108-5a69-4a2a-bd01-cc036800501a"
           (reference "U1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 160.02 45.085 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 7e10a9f6-cb44-45ef-816a-88797523839a)
+    (property "Reference" "H3" (at 163.195 43.8149 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 163.195 46.3549 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner" (at 160.02 45.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 160.02 45.085 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "FTIR_Main_Hardware"
+        (path "/049c3f09-c046-40c3-9872-e62b40667976"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "Flouro_Breakout"
+        (path "/7d297d96-3ae7-4136-8d04-aa7759bb4b4b"
+          (reference "H3") (unit 1)
+        )
+      )
+      (project "TIAs"
+        (path "/9eea0108-5a69-4a2a-bd01-cc036800501a"
+          (reference "H3") (unit 1)
         )
       )
     )
@@ -1170,6 +1301,40 @@
       (project "TIAs"
         (path "/9eea0108-5a69-4a2a-bd01-cc036800501a"
           (reference "#PWR07") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Mechanical:MountingHole") (at 160.02 50.165 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid a2ddaa98-a2cc-4709-9224-b531f64bfbfa)
+    (property "Reference" "H4" (at 163.195 48.8949 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Value" "MountingHole" (at 163.195 51.4349 0)
+      (effects (font (size 1.27 1.27)) (justify left))
+    )
+    (property "Footprint" "MRDT_Drill_Holes:4_40_Hole_Corner" (at 160.02 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 160.02 50.165 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (instances
+      (project "FTIR_Main_Hardware"
+        (path "/049c3f09-c046-40c3-9872-e62b40667976"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "Flouro_Breakout"
+        (path "/7d297d96-3ae7-4136-8d04-aa7759bb4b4b"
+          (reference "H4") (unit 1)
+        )
+      )
+      (project "TIAs"
+        (path "/9eea0108-5a69-4a2a-bd01-cc036800501a"
+          (reference "H4") (unit 1)
         )
       )
     )
