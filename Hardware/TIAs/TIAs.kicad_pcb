@@ -839,6 +839,9 @@
     (stroke (width 0.15) (type default)) (layer "Edge.Cuts") (tstamp e5a38419-3eeb-42b4-987f-d9fbc26a5154))
   (gr_arc (start 78.105 96.012) (mid 75.231319 94.821682) (end 74.041 91.948)
     (stroke (width 0.15) (type default)) (layer "Edge.Cuts") (tstamp e898db22-8e43-4294-8e0c-236da29cc9af))
+  (gr_text "PD Breakout, MRDT,\nMS&T, 2023" (at 97.9932 93.472) (layer "B.SilkS") (tstamp 8ef949d4-5176-4bbf-9d5a-690f165ff6ef)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
+  )
 
   (segment (start 89.5731 66.6242) (end 85.2316 70.9657) (width 0.254) (layer "F.Cu") (net 1) (tstamp 02c0ed14-91e5-40bb-9d00-8aa8646e26f9))
   (segment (start 85.2316 70.9657) (end 84.582 70.9657) (width 0.254) (layer "F.Cu") (net 1) (tstamp 4cc0795f-0949-47ec-bfde-a6208bde245f))
