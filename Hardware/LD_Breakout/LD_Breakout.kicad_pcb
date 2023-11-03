@@ -1541,8 +1541,8 @@
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp 998cd2a3-e10a-40d4-98c7-42c88faaa1c4))
   (gr_line (start 141.5288 69.3674) (end 123.317 69.3674)
     (stroke (width 0.1) (type default)) (layer "Edge.Cuts") (tstamp e5228332-4ccf-4348-b06f-fe5e374b3fc4))
-  (gr_text "LD Breakout, \nRev1, MRDT, \nMS&T, 2023\n" (at 137.16 75.0316) (layer "B.SilkS") (tstamp 99334775-bd39-42cd-a684-ac05c4b76502)
-    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom mirror))
+  (gr_text "Laser Diode Breakout, Rev1\nMars Rover Design Team \nMissouri S&T, 2023" (at 136.7028 74.8792) (layer "B.SilkS") (tstamp 99334775-bd39-42cd-a684-ac05c4b76502)
+    (effects (font (size 1.016 0.4318) (thickness 0.09525) bold) (justify left bottom mirror))
   )
 
   (segment (start 133.477 82.437) (end 137.287 78.627) (width 0.254) (layer "F.Cu") (net 1) (tstamp 37617bd5-e79b-431e-8ac1-4c003a116093))
