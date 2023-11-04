@@ -6762,7 +6762,7 @@
     (property "ki_keywords" "R res resistor")
     (path "/31a701a9-74a8-473c-bbfc-e58b40ad4c1f")
     (attr smd)
-    (fp_text reference "R18" (at 0 1.43 -270) (layer "B.SilkS")
+    (fp_text reference "R18" (at -0.3306 1.4224 -270) (layer "B.SilkS")
         (effects (font (size 1 1) (thickness 0.15)) (justify mirror))
       (tstamp 9b486ca0-c531-4d2a-9946-aacef2b85a3f)
     )
