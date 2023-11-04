@@ -1,4 +1,4 @@
-22622146911211896
+22611304964742725
 Audio_Module
 Reverb_BTDR-1H
 Digital Reverberation Unit, http://www.belton.co.kr/inc/downfile.php?seq=17&file=pdf (footprint from http://www.uk-electronic.de/PDF/BTDR-1.pdf)
@@ -62279,13 +62279,6 @@ TO-220-3 Horizontal RM 2.54mm
 3
 3
 MRDT_Connectors
-142-0701-801
-
-
-0
-5
-2
-MRDT_Connectors
 Anderson_1_Horizontal
 
 
@@ -62734,13 +62727,6 @@ BUZZER_SMI_1324_TW_5V_2_R
 2
 2
 MRDT_Devices
-D36V28F7_Buck
-
-
-0
-5
-4
-MRDT_Devices
 HX1198FNL
 
 
@@ -62775,6 +62761,13 @@ OKI
 0
 3
 3
+MRDT_Devices
+PKE3316ZPI
+
+
+0
+6
+6
 MRDT_Devices
 Q36SR12020NRFA
 
@@ -62958,6 +62951,13 @@ USEQGSEAN8L180
 36
 30
 MRDT_Passives
+3528SMD_Diode
+
+
+0
+2
+2
+MRDT_Passives
 ATC_Fuse_Block
 
 Fuse ATC
@@ -63056,13 +63056,6 @@ MQ_135_Breakout
 4
 4
 MRDT_Sensors
-P16113-011MN
-
-
-0
-3
-1
-MRDT_Sensors
 Razor_9DOF_Sparkfun
 
 
@@ -63083,13 +63076,6 @@ TMP36
 0
 3
 3
-MRDT_Sensors
-VTP9812FH
-
-
-0
-2
-2
 MRDT_Shields
 Arduino_Micro_THT_Top
 
@@ -63216,13 +63202,6 @@ LAUNCHXL_F28069M_J5_THT_TOP
 0
 40
 39
-MRDT_Shields
-MODULE_TMC2208_SILENTSTEPSTICK
-
-
-0
-19
-19
 MRDT_Shields
 RASPBERRY_PI_HEADERS
 
