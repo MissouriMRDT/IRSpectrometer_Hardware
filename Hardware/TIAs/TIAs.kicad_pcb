@@ -826,6 +826,9 @@
   (gr_text "Photodiode Breakout, Rev1 \nMars Rover Design Team\nMissouri S&T, 2023" (at 83.185 80.01) (layer "F.SilkS") (tstamp 8ef949d4-5176-4bbf-9d5a-690f165ff6ef)
     (effects (font (size 1.016 0.8128) (thickness 0.15)) (justify left bottom))
   )
+  (gr_text "Adam K.\nDrew W." (at 83.3628 85.7504) (layer "F.SilkS") (tstamp a6624832-9849-4323-aced-df41589a4dff)
+    (effects (font (size 1 1) (thickness 0.15)) (justify left bottom))
+  )
 
   (segment (start 89.5731 66.6242) (end 85.2316 70.9657) (width 0.254) (layer "F.Cu") (net 1) (tstamp 02c0ed14-91e5-40bb-9d00-8aa8646e26f9))
   (segment (start 85.2316 70.9657) (end 84.582 70.9657) (width 0.254) (layer "F.Cu") (net 1) (tstamp 4cc0795f-0949-47ec-bfde-a6208bde245f))
