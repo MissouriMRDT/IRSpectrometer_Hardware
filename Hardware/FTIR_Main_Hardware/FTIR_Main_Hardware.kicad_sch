@@ -1977,6 +1977,10 @@
     (stroke (width 0) (type default))
     (uuid 0ad61e4a-880d-4055-a44c-784f100adf53)
   )
+  (wire (pts (xy 263.525 53.975) (xy 267.335 53.975))
+    (stroke (width 0) (type default))
+    (uuid 0b568549-6d3c-49f4-b82d-78a3c430e31c)
+  )
   (wire (pts (xy 164.465 117.475) (xy 164.465 115.57))
     (stroke (width 0) (type default))
     (uuid 0cc146d6-6bdd-4545-80d0-0656e56b7a5f)
@@ -2024,6 +2028,14 @@
   (wire (pts (xy 96.52 103.505) (xy 98.425 103.505))
     (stroke (width 0) (type default))
     (uuid 1df3c127-ee09-44be-90f4-d9a5342fd53c)
+  )
+  (wire (pts (xy 254.635 53.975) (xy 255.905 53.975))
+    (stroke (width 0) (type default))
+    (uuid 1e90cf9f-6cfd-40d3-99ac-2fa90499fa13)
+  )
+  (wire (pts (xy 272.415 53.975) (xy 274.32 53.975))
+    (stroke (width 0) (type default))
+    (uuid 1fa82ec7-6ecc-40fc-8f22-9760ce0d9ada)
   )
   (wire (pts (xy 52.07 145.415) (xy 53.34 145.415))
     (stroke (width 0) (type default))
@@ -3122,8 +3134,8 @@
       (effects (font (size 1.27 1.27)) hide)
     )
     (pin "EN" (uuid d80146e9-2f9c-40a3-accd-5fcd6429ebba))
-    (pin "GND" (uuid 16740dd0-0dd0-4504-aa33-e84a084c4c69))
-    (pin "GND" (uuid 16740dd0-0dd0-4504-aa33-e84a084c4c69))
+    (pin "GND" (uuid 16740dd0-0dd0-4504-aa33-e84a084c4c6a))
+    (pin "GND" (uuid 16740dd0-0dd0-4504-aa33-e84a084c4c6a))
     (pin "VIN" (uuid 8a8bcd15-bcb1-4c6f-866f-727a2f16b2c3))
     (pin "VOUT" (uuid 0cc794a1-729d-47c7-9dce-6a083647400a))
     (instances
@@ -3260,7 +3272,7 @@
     (property "Reference" "U4" (at 86.36 95.885 0)
       (effects (font (size 1.27 1.27)))
     )
-    (property "Value" "TMC2208_Breakout" (at 86.36 97.79 0)
+    (property "Value" "TMC2208" (at 86.36 97.79 0)
       (effects (font (size 1.27 1.27)))
     )
     (property "Footprint" "FTIR_Footprints:MODULE_TMC2208_SILENTSTEPSTICK" (at 87.63 115.57 0)
@@ -3272,8 +3284,8 @@
     (pin "CLK" (uuid 9c74debe-37a8-48b3-aa28-9a45378e8a22))
     (pin "DIR" (uuid 28b3da4a-9c2e-49d2-9307-595731f095cb))
     (pin "EN" (uuid 0c8e3493-b902-4a23-9167-debf138d542d))
-    (pin "GND" (uuid bef879b0-1a0f-452c-a648-168ae46060c6))
-    (pin "GND" (uuid bef879b0-1a0f-452c-a648-168ae46060c6))
+    (pin "GND" (uuid bef879b0-1a0f-452c-a648-168ae46060c7))
+    (pin "GND" (uuid bef879b0-1a0f-452c-a648-168ae46060c7))
     (pin "M1A" (uuid 63253d79-78b3-49f2-8d5f-bd957cd64f2e))
     (pin "M1B" (uuid 1156c412-7818-43fb-90b5-90a0f91a4805))
     (pin "M2A" (uuid 9b0cbdcf-a897-4af2-820e-396f502541e5))
@@ -3320,6 +3332,36 @@
       (project "Flouro_Breakout"
         (path "/7d297d96-3ae7-4136-8d04-aa7759bb4b4b"
           (reference "R5") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "power:GND") (at 274.32 53.975 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid 31da9411-0ca7-4e9e-a0a3-db4ca6a01e74)
+    (property "Reference" "#PWR021" (at 274.32 60.325 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "GND" (at 274.32 58.42 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 274.32 53.975 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 274.32 53.975 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid fbd13a0b-df8d-47ea-8564-91a8b9f31ee5))
+    (instances
+      (project "FTIR_Main_Hardware"
+        (path "/049c3f09-c046-40c3-9872-e62b40667976"
+          (reference "#PWR021") (unit 1)
+        )
+      )
+      (project "Day1"
+        (path "/88af529a-d884-4361-9125-c50b314779b3"
+          (reference "#PWR02") (unit 1)
         )
       )
     )
@@ -4342,6 +4384,37 @@
     )
   )
 
+  (symbol (lib_id "Device:R") (at 259.715 53.975 90) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid abf3310f-b0d5-4ac9-a55c-d7eeee41aa72)
+    (property "Reference" "R6" (at 259.715 56.515 90)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "100" (at 259.715 53.975 90)
+      (effects (font (size 0.9906 0.9906)))
+    )
+    (property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder" (at 259.715 55.753 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 259.715 53.975 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid 105bc30a-fd35-4eeb-90e5-3aedecb3afbb))
+    (pin "2" (uuid b0280605-1c07-4b7d-8be2-45119c58f56d))
+    (instances
+      (project "FTIR_Main_Hardware"
+        (path "/049c3f09-c046-40c3-9872-e62b40667976"
+          (reference "R6") (unit 1)
+        )
+      )
+      (project "Flouro_Breakout"
+        (path "/7d297d96-3ae7-4136-8d04-aa7759bb4b4b"
+          (reference "R1") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "power:GND") (at 107.95 43.18 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
     (uuid b8f91215-dfd4-4c39-9163-83a5d9857bcd)
@@ -4544,11 +4617,11 @@
     (property "Datasheet" "" (at 27.94 55.245 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 7184e404-c4e1-43f3-96fe-42b1052b640b))
+    (pin "1" (uuid 7184e404-c4e1-43f3-96fe-42b1052b640c))
     (pin "2" (uuid 832ebfab-b3a0-4e31-9964-9c1b68eaad68))
     (pin "3" (uuid ad4898d6-e084-480b-a61e-6a4623f9ba68))
     (pin "4" (uuid aca8a6c2-4dc3-4d3f-85ee-9daf1f724fc6))
-    (pin "1" (uuid 7184e404-c4e1-43f3-96fe-42b1052b640b))
+    (pin "1" (uuid 7184e404-c4e1-43f3-96fe-42b1052b640c))
     (instances
       (project "FTIR_Main_Hardware"
         (path "/049c3f09-c046-40c3-9872-e62b40667976"
@@ -4892,6 +4965,31 @@
     )
   )
 
+  (symbol (lib_id "power:+3V3") (at 254.635 53.975 0) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no) (fields_autoplaced)
+    (uuid e3940773-7a14-4850-a2d4-d58bb2eb7eea)
+    (property "Reference" "#PWR017" (at 254.635 57.785 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Value" "+3V3" (at 254.635 49.53 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "" (at 254.635 53.975 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "" (at 254.635 53.975 0)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ec06347b-27b2-4a87-aaa3-9f53999c9723))
+    (instances
+      (project "FTIR_Main_Hardware"
+        (path "/049c3f09-c046-40c3-9872-e62b40667976"
+          (reference "#PWR017") (unit 1)
+        )
+      )
+    )
+  )
+
   (symbol (lib_id "MRDT_Connectors:RP-SMA") (at 194.945 110.49 0) (unit 1)
     (in_bom yes) (on_board yes) (dnp no)
     (uuid e3b25e3f-f4a7-4999-b0fb-e0971022aee5)
@@ -5057,11 +5155,11 @@
     (property "Datasheet" "" (at 22.225 44.45 0)
       (effects (font (size 1.524 1.524)) hide)
     )
-    (pin "1" (uuid 4d5055a9-a129-47dc-bc7b-9730e0a56b7c))
+    (pin "1" (uuid 4d5055a9-a129-47dc-bc7b-9730e0a56b7d))
     (pin "2" (uuid 46d9d57d-1f76-48e3-a41e-242aefb5450d))
     (pin "3" (uuid d0ec281e-b407-47fc-9e23-0efcec5ac75f))
     (pin "4" (uuid e5e6a7fb-921b-463e-9019-c918f1c11a82))
-    (pin "1" (uuid 4d5055a9-a129-47dc-bc7b-9730e0a56b7c))
+    (pin "1" (uuid 4d5055a9-a129-47dc-bc7b-9730e0a56b7d))
     (instances
       (project "FTIR_Main_Hardware"
         (path "/049c3f09-c046-40c3-9872-e62b40667976"
@@ -5124,6 +5222,37 @@
       (project "Flouro_Breakout"
         (path "/7d297d96-3ae7-4136-8d04-aa7759bb4b4b"
           (reference "Q1") (unit 1)
+        )
+      )
+    )
+  )
+
+  (symbol (lib_id "Device:LED_Small") (at 269.875 53.975 180) (unit 1)
+    (in_bom yes) (on_board yes) (dnp no)
+    (uuid fecdc3a3-0c46-4a72-85c7-eafea2b86be8)
+    (property "Reference" "D1" (at 267.335 52.705 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Value" "Green" (at 272.415 52.705 0)
+      (effects (font (size 1.27 1.27)))
+    )
+    (property "Footprint" "LED_SMD:LED_0603_1608Metric_Pad1.05x0.95mm_HandSolder" (at 269.875 53.975 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (property "Datasheet" "~" (at 269.875 53.975 90)
+      (effects (font (size 1.27 1.27)) hide)
+    )
+    (pin "1" (uuid ef2789fb-a406-4c79-8a79-9e24db28c633))
+    (pin "2" (uuid 037264e7-7b1e-4e61-b6f1-5ff4fc54aa8a))
+    (instances
+      (project "FTIR_Main_Hardware"
+        (path "/049c3f09-c046-40c3-9872-e62b40667976"
+          (reference "D1") (unit 1)
+        )
+      )
+      (project "Flouro_Breakout"
+        (path "/7d297d96-3ae7-4136-8d04-aa7759bb4b4b"
+          (reference "D1") (unit 1)
         )
       )
     )
